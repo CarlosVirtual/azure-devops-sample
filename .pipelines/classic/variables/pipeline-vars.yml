@@ -1,7 +1,8 @@
 # IaC variables
 
 variables:
-
+  # CHANGE
+  # 01/14/2022 - Namae updated
   projectName: 'cqlogicappsample'
   suffix: 'dev'
 
