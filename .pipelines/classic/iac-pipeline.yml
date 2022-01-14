@@ -33,4 +33,6 @@ stages:
     parameters:
       environment: $(devEnvironment)
       # TODO: Fill in with the name of your Azure service connection
-      serviceConnection: ''
+      # CHANGES:
+      # 01/14/2022: Project settings > Service connections
+      serviceConnection: 'AAPipelineConn2'
