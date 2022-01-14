@@ -41,7 +41,8 @@ stages:
               # TODO: Fill in with the name of your Azure service connection
               # CHANGE 01/14/2022
               # ADDED azureSubscription
-              azureSubscription: 'Internal Subscription - CQ'
+              # Project settings > Service connections. 
+              azureSubscription: 'AAPipelineConn2'
               appType: 'functionApp'
               appName: '$(logicAppName)'
               package: '$(Pipeline.Workspace)/cipipeline/$(logicAppCIArtifactName)/$(resources.pipeline.cipipeline.runID).zip'
