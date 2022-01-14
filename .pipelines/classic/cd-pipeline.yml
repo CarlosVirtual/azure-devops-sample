@@ -10,7 +10,10 @@ resources:
   pipelines:
   - pipeline: cipipeline
     # TODO: Update with the name of your CI pipeline
-    source: ''
+    # CFQT 1/14/2022 
+    # CHANGES: 
+    # source
+    source: 'ci-pipeline'
     trigger:
       branches:
       - main
