@@ -70,7 +70,9 @@ jobs:
 
         - task: AzureCLI@2
           inputs:
-            azureSubscription: 'devconnection2'
+            # CHANGES 
+            # 01/14/2022:  azureSubscription: 'AAPipelineConn2'
+            azureSubscription: 'AAPipelineConn2'
             scriptType: 'bash'
             scriptLocation: 'inlineScript'
             inlineScript: |
