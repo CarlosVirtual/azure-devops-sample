@@ -72,7 +72,7 @@ jobs:
           inputs:
             # CHANGES 
             # 01/14/2022:  azureSubscription: 'AAPipelineConn2'
-            azureSubscription: 'AAPipelineConn2'
+            azureSubscription: 'ConnToMyAzureAccount'
             scriptType: 'bash'
             scriptLocation: 'inlineScript'
             inlineScript: |

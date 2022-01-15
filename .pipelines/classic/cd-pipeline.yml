@@ -42,7 +42,7 @@ stages:
               # CHANGE 01/14/2022
               # ADDED azureSubscription
               # Project settings > Service connections. 
-              azureSubscription: 'AAPipelineConn2'
+              azureSubscription: 'ConnToMyAzureAccount'
               appType: 'functionApp'
               appName: '$(logicAppName)'
               package: '$(Pipeline.Workspace)/cipipeline/$(logicAppCIArtifactName)/$(resources.pipeline.cipipeline.runID).zip'
